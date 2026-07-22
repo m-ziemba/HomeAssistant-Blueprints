@@ -1,3 +1,4 @@
+# source: https://community.home-assistant.io/t/homematic-actions-for-hmip-wrc2-hmip-fci2/257035
 blueprint:
   name: Actions for HmIP-WRC6
   description: When a button is pressed, the defined actions will be executed. Please
@@ -83,7 +84,7 @@ blueprint:
       default: []
       selector:
         action: {}
-  source_url: https://community.home-assistant.io/t/homematic-actions-for-hmip-wrc2-hmip-fci2/257035
+  source_url: https://github.com/m-ziemba/HomeAssistant-Blueprints/blob/main/Homematic/homematic-actions-for-hmip-fci6.yaml
 trigger:
 - platform: event
   event_type: homematic.keypress
