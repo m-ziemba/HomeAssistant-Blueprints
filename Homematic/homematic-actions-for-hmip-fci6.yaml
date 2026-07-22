@@ -1,6 +1,6 @@
 # source: https://community.home-assistant.io/t/homematic-actions-for-hmip-wrc2-hmip-fci2/257035
 blueprint:
-  name: Actions for HmIP-WRC6
+  name: Actions for HmIP-FCI6
   description: When a button is pressed, the defined actions will be executed. Please
     keep in mind, that long-press actions might be executed multiple times, according
     to your configured minimum duration for long press. This can be configured in
@@ -8,7 +8,7 @@ blueprint:
   domain: automation
   input:
     switch:
-      name: HmIP-WRC6 Device
+      name: HmIP-FCI6 Device
       description: Please select a HmIP-WRC6 entity of your Homematic (not Homematic
         Cloud) integration by typing in the name of the device which was set in your
         CCU.
