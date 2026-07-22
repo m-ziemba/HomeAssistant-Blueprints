@@ -9,7 +9,7 @@ blueprint:
   input:
     switch:
       name: HmIP-FCI6 Device
-      description: Please select a HmIP-WRC6 entity of your Homematic (not Homematic
+      description: Please select a HmIP-FCI6 entity of your Homematic (not Homematic
         Cloud) integration by typing in the name of the device which was set in your
         CCU.
     action_left_top_short:
